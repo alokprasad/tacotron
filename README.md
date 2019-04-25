@@ -3,6 +3,23 @@
 An implementation of Tacotron speech synthesis in TensorFlow.
 
 
+### Quick Run 
+
+1. Clone the repo
+
+2. **Download and unpack a model**:
+   ```
+   curl http://data.keithito.com/data/speech/tacotron-20180906.tar.gz | tar xzC /tmp
+  ```
+
+3. **Run the demo server**:
+   ```
+   python3 demo_server.py --checkpoint /tmp/tacotron-20180906/model.ckpt
+   ```
+3. **Point your browser at localhost:9000**
+   * Type what you want to synthesizeClone the repo 
+
+
 ### Audio Samples
 
   * **[Audio Samples](https://keithito.github.io/audio-samples/)** from models trained using this repo.
