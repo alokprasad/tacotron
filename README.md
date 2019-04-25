@@ -5,7 +5,7 @@ An implementation of Tacotron speech synthesis in TensorFlow.
 
 ### Quick Run 
 
-1. Clone the repo
+1. **Clone the repo**
 
 2. **Download and unpack a model**:
    ```
@@ -16,6 +16,7 @@ An implementation of Tacotron speech synthesis in TensorFlow.
    ```
    python3 demo_server.py --checkpoint /tmp/tacotron-20180906/model.ckpt
    ```
+   
 3. **Point your browser at localhost:9000**
    * Type what you want to synthesizeClone the repo 
 
