@@ -80,6 +80,7 @@ Pull requests are welcome!
 
 python3 preprocess.py --base_dir /media/alok/ws/sandbox/tacatron --dataset ljspeech
 
+(  hparams.py -> num_mels=5 for lpcnet)
 python3 train.py --input /media/alok/ws/sandbox/tacatron/training/train.txt
 
 run tensorboard from :~/tacotron/logs-tacotron$ tensorboard --logdir ./
