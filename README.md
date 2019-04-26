@@ -76,6 +76,16 @@ Pull requests are welcome!
    * Type what you want to synthesize
 
 
+### Training ( Alok Note)
+
+python3 preprocess.py --base_dir /media/alok/ws/sandbox/tacatron --dataset ljspeech
+python3 train.py --input /media/alok/ws/sandbox/tacatron/training/train.txt
+
+run tensorboard from :~/tacotron/logs-tacotron$ tensorboard --logdir ./
+http://localhost:6006/#scalars&run=.
+
+python3 demo_server.py --checkpoint ~/tacotron/logs-tacotron/model.ckpt-1000
+
 
 ### Training
 
